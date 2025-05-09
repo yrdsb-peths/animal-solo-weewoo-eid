@@ -20,18 +20,19 @@ C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\doc
 UTF-8
 -charset
 UTF-8
-C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\MyWorld.java
+C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\SimpleTimer.java
 <---- end of javadoc command ---->
-Loading source file C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\MyWorld.java...
+Loading source file C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\SimpleTimer.java...
 Constructing Javadoc information...
-warning: unknown enum constant Tag.Any
-  reason: class file for threadchecker.Tag not found
-warning: unknown enum constant Tag.Any
-warning: unknown enum constant Tag.Any
-warning: unknown enum constant Tag.Any
 Standard Doclet version 21.0.4+7-LTS
 Building tree for all the packages and classes...
-Generating C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\doc\MyWorld.html...
+Generating C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\doc\SimpleTimer.html...
+C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\SimpleTimer.java:24: warning: invalid input: '&'
+ * if (timer.millisElapsed() > 1000 && Greenfoot.isKeyDown("space"))
+                                    ^
+C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\SimpleTimer.java:24: warning: invalid input: '&'
+ * if (timer.millisElapsed() > 1000 && Greenfoot.isKeyDown("space"))
+                                     ^
 Generating C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\doc\package-summary.html...
 Generating C:\Users\Dylan\Documents\GitHub\animal-solo-weewoo-eid\doc\index.html...
-4 warnings
+2 warnings
