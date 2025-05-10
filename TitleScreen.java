@@ -21,9 +21,12 @@ public class TitleScreen extends World
     }
     
     /**
-     * Main world act loop
+     * Main world act loop: Starts game if user presses space bar
      */
     public void act() {
-        
+        if(Greenfoot.isKeyDown("space")) {
+            MyWorld gameWorld = new MyWorld();
+            Greenfoot.setWorld(gameWorld);
+        }
     }    
 }
