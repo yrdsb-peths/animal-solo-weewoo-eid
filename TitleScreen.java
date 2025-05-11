@@ -10,6 +10,7 @@ public class TitleScreen extends World
 {
     Label titleLabel = new Label("Hungry Elephant", 80);
     Label text = new Label("Press \"Space\" to Play", 40);
+    Label controlText = new Label("Press \"a\" and \"d\" to move", 40);
     /**
      * Constructor for objects of class TitleScreen.
      */
@@ -17,11 +18,12 @@ public class TitleScreen extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        
-        addObject(titleLabel, 300, 150);
-        addObject(text, 300, 300);
+
+        addObject(titleLabel, 300, 50);
+        addObject(text, 225, 145);
+        prepare();
     }
-    
+
     /**
      * Main world act loop: Starts game if user presses space bar
      */
@@ -31,4 +33,18 @@ public class TitleScreen extends World
             Greenfoot.setWorld(gameWorld);
         }
     }    
+    
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        Elephant elephant = new Elephant();
+        addObject(elephant,510,69);
+        elephant.setLocation(538,170);
+        elephant.setLocation(528,215);
+        elephant.setLocation(480,141);
+        addObject(controlText, 300, 350);
+    }
 }
