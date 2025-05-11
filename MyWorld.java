@@ -23,9 +23,9 @@ public class MyWorld extends World {
      * End game, print "Game Over"
      */
     public void gameOver() {
-        Label gameOverLabel = new Label("Game Over", 120);
+        Label gameOverLabel = new Label("Game Over :(", 120);
         addObject(gameOverLabel, 300, 200);
-        
+        Greenfoot.stop();
     }
     
     /**
