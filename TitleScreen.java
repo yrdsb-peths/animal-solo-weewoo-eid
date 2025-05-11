@@ -20,7 +20,7 @@ public class TitleScreen extends World
         super(600, 400, 1); 
 
         addObject(titleLabel, 300, 50);
-        addObject(text, 225, 145);
+        addObject(text, 300, 145);
         prepare();
     }
 
@@ -41,10 +41,7 @@ public class TitleScreen extends World
     private void prepare()
     {
         Elephant elephant = new Elephant();
-        addObject(elephant,510,69);
-        elephant.setLocation(538,170);
-        elephant.setLocation(528,215);
-        elephant.setLocation(480,141);
+        addObject(elephant,300,250);
         addObject(controlText, 300, 350);
     }
 }
